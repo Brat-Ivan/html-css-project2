@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сайт об NFT | Profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Outfit:wght@400;600&family=Poppins:wght@400;500;600;700&family=Public+Sans:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <div id="root" class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <a href="./index.html" class="logo">
+            <img
+              src="./assets/img/logo.svg"
+              alt="Logo"
+              width="53"
+              height="53"
+              class="logo-img"
+            />
+            <span class="logo-text">DiveSea</span>
+          </a>
+          <nav class="menu">
+            <div class="menu-icon">
+              <span class="menu-icon-line"></span>
+            </div>
+            <ul class="menu-list">
+              <li class="menu-list-item">
+                <a href="./discover.html" class="menu-link">Discover</a>
+              </li>
+              <li class="menu-list-item">
+                <a href="./creators.html" class="menu-link">Creators</a>
+              </li>
+              <li class="menu-list-item">
+                <a href="./sell.html" class="menu-link">Sell</a>
+              </li>
+              <li class="menu-list-item">
+                <a href="./stats.html" class="menu-link">Stats</a>
+              </li>
+            </ul>
+          </nav>
+          <form action="#!" class="header-search-form">
+            <label for="search" class="header-search-form-label">
+              <input
+                type="search"
+                placeholder="Search Art Work / Creator"
+                id="search"
+                class="header-search-form-input"
+              />
+            </label>
+          </form>
+          <a href="./choose-wallet.html" class="header-button button">Connect Wallet</a>
+        </div>
+        <hr class="header-horizontal-line">
+      </div>
+    </header>
+    <main class="main">
+      <section class="profile">
+        <div class="container profile-header-content">
+          <div class="profile-header"></div>
+        </div>
+        <div class="container">
+          <div class="profile-content">
+            <div class="profile-left">
+              <div class="profile-icon">
+                <img
+                  src="./assets/img/profile-user-image.png"
+                  alt="User image"
+                  width="165"
+                  height="165"
+                  class="profile-user-image"
+                />
+                <div class="profile-user-checkmark"></div>
+              </div>
+              <div class="profile-intro">
+                <div class="profile-intro-text">
+                  <h1 class="profile-user-name">Harry K.</h1>
+                  <p class="profile-user-nickname">@Harryknft</p>
+                </div>
+                <button class="profile-intro-follow-button button">Follow +</button>
+              </div>
+              <hr class="profile-horizontal-line">
+              <ul class="profile-info-list">
+                <li class="profile-info-item">
+                  <h2 class="profile-info-item-title">86 ETH</h2>
+                  <p class="profile-info-item-description">Total Sales</p>
+                </li>
+                <li class="profile-info-item">
+                  <h2 class="profile-info-item-title">12K</h2>
+                  <p class="profile-info-item-description">Followers</p>
+                </li>
+                <li class="profile-info-item">
+                  <h2 class="profile-info-item-title">587</h2>
+                  <p class="profile-info-item-description">Followings</p>
+                </li>
+              </ul>
+              <h2 class="profile-bio-title">Bio</h2>
+              <p class="profile-bio-description">the artist who transforms the intangible into priceless assets with their incredible NFT creations. From stunning visuals to mind-bending concepts,</p>
+              <hr class="profile-horizontal-line">
+              <ul class="profile-social-list">
+                <li class="profile-social-list-item">
+                  <a href="#!" class="profile-social-link">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="profile-instagram-icon"
+                    >
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M7.93271 0C8.99321 0.0378781 10.0916 0.0378781 11.1521 0.0757512C12.099 0.113624 12.9701 0.265125 13.8033 0.757496C14.8638 1.40137 15.5077 2.34824 15.735 3.56023C15.8486 4.27985 15.8865 5.03735 15.9243 5.75698C15.9622 7.34771 15.9243 8.93846 15.9243 10.5292C15.9243 11.3624 15.8865 12.1957 15.6213 12.9911C15.0911 14.5439 13.9927 15.4908 12.402 15.7938C11.6823 15.9453 10.9248 15.9453 10.2052 15.9832C8.61446 16.021 7.06159 15.9832 5.47083 15.9832C4.63758 15.9832 3.80433 15.9453 3.00896 15.6802C1.45608 15.1499 0.509209 14.0515 0.206207 12.4608C0.0547099 11.7412 0.0547099 10.9837 0.0168343 10.2641C-0.0210429 8.67333 0.0168343 7.08259 0.0168343 5.49185C0.0168343 4.65861 0.0547099 3.82536 0.319834 3.02998C0.850086 1.47711 1.94846 0.530251 3.53921 0.227251C4.25884 0.0757562 5.01634 0.0757562 5.73596 0.0378781C6.45559 0 7.17521 0 7.93271 0ZM14.4863 7.84006C14.4484 7.84006 14.4863 7.84006 14.4863 7.84006C14.4484 7.19618 14.4484 6.59018 14.4484 5.94631C14.4484 5.34032 14.4105 4.73432 14.3348 4.12833C14.1833 2.76483 13.3879 1.85583 12.0623 1.59071C11.3805 1.43921 10.623 1.43921 9.94127 1.43921C8.57776 1.40134 7.25214 1.40134 5.88864 1.43921C5.20689 1.43921 4.52514 1.47708 3.88126 1.59071C2.74501 1.78008 1.94964 2.42396 1.60876 3.5602C1.49514 3.93895 1.45726 4.3177 1.41939 4.69644C1.38151 6.13569 1.38151 7.57493 1.38151 9.01417C1.38151 9.92317 1.41939 10.87 1.49514 11.779C1.60876 13.1425 2.44201 14.0894 3.80551 14.3166C4.48726 14.4303 5.20689 14.4681 5.92651 14.4681C7.25214 14.506 8.57776 14.4681 9.94127 14.4681C10.5473 14.4681 11.1533 14.4303 11.7593 14.3545C12.3274 14.3166 12.8576 14.1273 13.3121 13.7485C14.0696 13.1425 14.3348 12.3472 14.3726 11.4382C14.4484 10.3019 14.4484 9.08992 14.4863 7.84006Z"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0248 7.99085C12.0248 10.2633 10.2068 12.0813 7.93426 12.0813C5.66175 12.0813 3.84375 10.2633 3.84375 7.95298C3.84375 5.71837 5.69962 3.90039 7.97213 3.90039C10.2068 3.90039 12.0248 5.71837 12.0248 7.99085ZM7.93337 10.6421C9.37262 10.6421 10.5846 9.43014 10.5846 7.99091C10.5846 6.55167 9.37262 5.33968 7.93337 5.33968C6.45624 5.33968 5.28211 6.55167 5.28211 7.99091C5.24424 9.43014 6.45624 10.6421 7.93337 10.6421Z"/>
+                      <path d="M13.1225 3.71152C13.1225 4.24178 12.7059 4.69628 12.1756 4.69628C11.6454 4.69628 11.1909 4.24178 11.2288 3.71152C11.2288 3.18128 11.6454 2.76465 12.1756 2.76465C12.7059 2.76465 13.1225 3.18127 13.1225 3.71152Z"/>
+                    </svg>
+                  </a>
+                </li>
+                <li class="profile-social-list-item">
+                  <a href="#!" class="profile-social-link">
+                    <svg
+                      width="17"
+                      height="16"
+                      viewBox="0 0 17 16"
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="profile-linkedin-icon"
+                    >
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.5487 9.32498V15.2116H13.1112V9.71169C13.1112 8.33671 12.6386 7.39142 11.3925 7.39142C10.4472 7.39142 9.88864 8.03594 9.63083 8.63749C9.5449 8.85233 9.50193 9.15311 9.50193 9.45388V15.2116H6.06448C6.06448 15.2116 6.10745 5.88755 6.06448 4.94226H9.50193V6.40316C9.50193 6.40316 9.50193 6.44612 9.45896 6.44612H9.50193V6.40316C9.97458 5.71568 10.748 4.68445 12.5956 4.68445C14.83 4.68445 16.5487 6.18832 16.5487 9.32498ZM2.54099 0.000976562C1.38085 0.000976562 0.607422 0.774399 0.607422 1.76266C0.607422 2.75092 1.33788 3.52435 2.49802 3.52435H2.54099C3.7441 3.52435 4.47456 2.75092 4.47456 1.76266C4.43159 0.774399 3.70113 0.000976562 2.54099 0.000976562ZM0.779325 15.2117H4.17381V4.94242H0.779325V15.2117Z"/>
+                    </svg>                  
+                  </a>
+                </li>
+                <li class="profile-social-list-item">
+                  <a href="#!" class="profile-social-link">
+                    <svg
+                      width="8"
+                      height="16"
+                      viewBox="0 0 8 16"
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="profile-facebook-icon"
+                    >
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M7.32584 7.97156H5.09878V15.9421H1.7777V9.27561V7.97156H0.214844V5.15841H1.7777V3.32205C1.7777 2.0327 2.40285 0.000976562 5.09878 0.000976562H7.56028V2.73598H5.80206C5.52856 2.73598 5.09878 2.89227 5.09878 3.51741V5.15841H7.59935L7.32584 7.97156Z"/>
+                    </svg>                  
+                  </a>
+                </li>
+                <li class="profile-social-list-item">
+                  <a href="#!" class="profile-social-link">
+                    <svg
+                      width="17"
+                      height="14"
+                      viewBox="0 0 17 14"
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="profile-twitter-icon"
+                    >
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.2068 1.85816C15.6067 2.12072 15.0065 2.30826 14.3314 2.38328C15.0065 1.97068 15.5317 1.33304 15.7567 0.582871C15.1191 0.957955 14.4064 1.22051 13.6937 1.37055C13.0936 0.732902 12.2309 0.320312 11.2932 0.320312C9.49276 0.320312 8.02992 1.78314 8.02992 3.58354C8.02992 3.84611 8.06743 4.10866 8.10493 4.33372C5.3668 4.18368 2.96625 2.90839 1.35337 0.920449C1.05331 1.40806 0.903271 1.97068 0.903271 2.57082C0.903271 3.69607 1.4659 4.7088 2.36611 5.30893C1.84099 5.30893 1.31587 5.1589 0.865762 4.89634V4.93384C0.865762 6.5092 1.99102 7.8595 3.49137 8.15956C3.22881 8.23458 2.92874 8.27209 2.62867 8.27209C2.40362 8.27209 2.21607 8.23458 2.02853 8.19708C2.44113 9.50986 3.64141 10.4476 5.10424 10.4851C3.97898 11.3478 2.59116 11.8729 1.05331 11.8729C0.790746 11.8729 0.528187 11.8729 0.265625 11.8354C1.72846 12.7731 3.41635 13.2982 5.29178 13.2982C11.3307 13.2982 14.5939 8.3096 14.5939 3.99614C14.5939 3.84611 14.5939 3.69607 14.5939 3.58354C15.2316 3.09594 15.7942 2.4958 16.2068 1.85816Z"/>
+                    </svg>                  
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="profile-right">
+              <nav class="profile-menu">
+                <ul class="profile-menu-list">
+                  <li class="profile-menu-list-item">
+                    <button class="profile-menu-button active">
+                      <svg
+                        width="22"
+                        height="19"
+                        viewBox="0 0 22 19"
+                        fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="profile-menu-button-icon profile-menu-button-icon-collection"
+                      >
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M19.3129 9.45733C19.3129 10.265 20.0063 10.9222 20.8585 10.9222C21.2882 10.9222 21.637 11.2528 21.637 11.6601V14.3173C21.637 16.5643 19.7084 18.3922 17.3376 18.3922H5.17739C2.8066 18.3922 0.876953 16.5643 0.876953 14.3173V11.6601C0.876953 11.2528 1.22572 10.9222 1.65545 10.9222C2.50869 10.9222 3.20208 10.265 3.20208 9.45733C3.20208 8.67029 2.53672 8.07805 1.65545 8.07805C1.44889 8.07805 1.25167 8.00033 1.10531 7.86161C0.958955 7.7229 0.876953 7.53499 0.876953 7.3402L0.879029 4.59638C0.879029 2.34939 2.80764 0.520508 5.17843 0.520508H17.3355C19.7063 0.520508 21.636 2.34939 21.636 4.59638L21.637 7.25461C21.637 7.4494 21.555 7.63829 21.4097 7.77602C21.2633 7.91474 21.0661 7.99246 20.8585 7.99246C20.0063 7.99246 19.3129 8.64963 19.3129 9.45733ZM13.5942 10.0994L14.818 8.97003C15.0308 8.77524 15.1045 8.48797 15.0122 8.22235C14.9208 7.95672 14.6821 7.76783 14.3935 7.72946L12.7026 7.49532L11.9459 6.04323C11.8161 5.79335 11.5525 5.63791 11.2587 5.63692H11.2567C10.9639 5.63692 10.7003 5.79236 10.5685 6.04225L9.81177 7.49532L8.12397 7.72848C7.8323 7.76783 7.59356 7.95672 7.50117 8.22235C7.40983 8.48797 7.48353 8.77524 7.69528 8.97003L8.91908 10.0994L8.63052 11.6961C8.5807 11.9716 8.69799 12.2451 8.93673 12.4094C9.07167 12.5009 9.22841 12.5481 9.38722 12.5481C9.50867 12.5481 9.63115 12.5196 9.74326 12.4635L11.2567 11.7099L12.767 12.4615C13.0285 12.5943 13.3389 12.5737 13.5766 12.4084C13.8164 12.2451 13.9337 11.9716 13.8838 11.6961L13.5942 10.0994Z"/>
+                      </svg>                  
+                      <span class="profile-menu-button-text">Collection</span>
+                    </button>
+                  </li>
+                  <li class="profile-menu-list-item">
+                    <button class="profile-menu-button">
+                      <svg
+                        width="19"
+                        height="19"
+                        viewBox="0 0 19 19"
+                        fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="profile-menu-button-icon profile-menu-button-icon-activity"
+                      >
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.716797 9.45677C0.716797 4.47436 4.75146 0.430664 9.7429 0.430664C14.7253 0.430664 18.769 4.47436 18.769 9.45677C18.769 14.4482 14.7253 18.4829 9.7429 18.4829C4.75146 18.4829 0.716797 14.4482 0.716797 9.45677ZM11.7557 11.1083L13.2179 6.48699C13.3172 6.17107 13.0284 5.87321 12.7125 5.9725L8.09111 7.41667C7.90156 7.47986 7.74812 7.62427 7.69396 7.81382L6.24978 12.4442C6.1505 12.7511 6.44836 13.049 6.75525 12.9497L11.3586 11.5055C11.5481 11.4513 11.7015 11.2979 11.7557 11.1083Z"/>
+                      </svg>                    
+                      <span class="profile-menu-button-text">Activity</span>
+                    </button>
+                  </li>
+                </ul>
+              </nav>
+              <div class="profile-collection-content active">
+                <ul class="profile-collection-card-list">
+                  <li class="profile-collection-card-item">
+                    <article class="nft-card">
+                      <div class="nft-card-timer">07h 09m 12s</div>
+                      <img
+                        src="./assets/img/nft-card-img-1.jpg"
+                        alt="Sun-Glass NFT"
+                        width="184"
+                        height="184"
+                        loading="lazy"
+                        class="nft-card-img"
+                      />
+                      <h3 class="nft-card-title">Sun-Glass</h3>
+                      <div class="nft-card-bottom">
+                        <div class="nft-card-bid">
+                          <p class="nft-card-bid-text">Current bid</p>
+                          <div class="nft-card-bid-value">
+                            <img
+                              src="./assets/img/ethereum-icon.svg"
+                              alt="Ethereum icon"
+                              width="15"
+                              height="15"
+                              loading="lazy"
+                              class="nft-card-bid-value-icon"
+                            />
+                            <span class="nft-card-bid-value-text">1.75</span>
+                          </div>
+                        </div>
+                        <a href="./product-detail.html" class="nft-card-button button">Place Bid</a>
+                      </div>
+                    </article>
+                  </li>
+                  <li class="profile-collection-card-item">
+                    <article class="nft-card">
+                      <div class="nft-card-timer">07h 09m 12s</div>
+                      <img
+                        src="./assets/img/nft-card-img-2.jpg"
+                        alt="Sun-Glass NFT"
+                        width="184"
+                        height="184"
+                        loading="lazy"
+                        class="nft-card-img"
+                      />
+                      <h3 class="nft-card-title">Sun-Glass</h3>
+                      <div class="nft-card-bottom">
+                        <div class="nft-card-bid">
+                          <p class="nft-card-bid-text">Current bid</p>
+                          <div class="nft-card-bid-value">
+                            <img
+                              src="./assets/img/ethereum-icon.svg"
+                              alt="Ethereum icon"
+                              width="15"
+                              height="15"
+                              loading="lazy"
+                              class="nft-card-bid-value-icon"
+                            />
+                            <span class="nft-card-bid-value-text">1.75</span>
+                          </div>
+                        </div>
+                        <a href="./product-detail.html" class="nft-card-button button">Place Bid</a>
+                      </div>
+                    </article>
+                  </li>
+                  <li class="profile-collection-card-item">
+                    <article class="nft-card">
+                      <div class="nft-card-timer">07h 09m 12s</div>
+                      <img
+                        src="./assets/img/nft-card-img-3.jpg"
+                        alt="Sun-Glass NFT"
+                        width="184"
+                        height="184"
+                        loading="lazy"
+                        class="nft-card-img"
+                      />
+                      <h3 class="nft-card-title">Sun-Glass</h3>
+                      <div class="nft-card-bottom">
+                        <div class="nft-card-bid">
+                          <p class="nft-card-bid-text">Current bid</p>
+                          <div class="nft-card-bid-value">
+                            <img
+                              src="./assets/img/ethereum-icon.svg"
+                              alt="Ethereum icon"
+                              width="15"
+                              height="15"
+                              loading="lazy"
+                              class="nft-card-bid-value-icon"
+                            />
+                            <span class="nft-card-bid-value-text">1.75</span>
+                          </div>
+                        </div>
+                        <a href="./product-detail.html" class="nft-card-button button">Place Bid</a>
+                      </div>
+                    </article>
+                  </li>
+                  <li class="profile-collection-card-item">
+                    <article class="nft-card">
+                      <div class="nft-card-timer">07h 09m 12s</div>
+                      <img
+                        src="./assets/img/nft-card-img-3.jpg"
+                        alt="Sun-Glass NFT"
+                        width="184"
+                        height="184"
+                        loading="lazy"
+                        class="nft-card-img"
+                      />
+                      <h3 class="nft-card-title">Sun-Glass</h3>
+                      <div class="nft-card-bottom">
+                        <div class="nft-card-bid">
+                          <p class="nft-card-bid-text">Current bid</p>
+                          <div class="nft-card-bid-value">
+                            <img
+                              src="./assets/img/ethereum-icon.svg"
+                              alt="Ethereum icon"
+                              width="15"
+                              height="15"
+                              loading="lazy"
+                              class="nft-card-bid-value-icon"
+                            />
+                            <span class="nft-card-bid-value-text">1.75</span>
+                          </div>
+                        </div>
+                        <a href="./product-detail.html" class="nft-card-button button">Place Bid</a>
+                      </div>
+                    </article>
+                  </li>
+                  <li class="profile-collection-card-item">
+                    <article class="nft-card">
+                      <div class="nft-card-timer">07h 09m 12s</div>
+                      <img
+                        src="./assets/img/nft-card-img-1.jpg"
+                        alt="Sun-Glass NFT"
+                        width="184"
+                        height="184"
+                        loading="lazy"
+                        class="nft-card-img"
+                      />
+                      <h3 class="nft-card-title">Sun-Glass</h3>
+                      <div class="nft-card-bottom">
+                        <div class="nft-card-bid">
+                          <p class="nft-card-bid-text">Current bid</p>
+                          <div class="nft-card-bid-value">
+                            <img
+                              src="./assets/img/ethereum-icon.svg"
+                              alt="Ethereum icon"
+                              width="15"
+                              height="15"
+                              loading="lazy"
+                              class="nft-card-bid-value-icon"
+                            />
+                            <span class="nft-card-bid-value-text">1.75</span>
+                          </div>
+                        </div>
+                        <a href="./product-detail.html" class="nft-card-button button">Place Bid</a>
+                      </div>
+                    </article>
+                  </li>
+                  <li class="profile-collection-card-item">
+                    <article class="nft-card">
+                      <div class="nft-card-timer">07h 09m 12s</div>
+                      <img
+                        src="./assets/img/nft-card-img-2.jpg"
+                        alt="Sun-Glass NFT"
+                        width="184"
+                        height="184"
+                        loading="lazy"
+                        class="nft-card-img"
+                      />
+                      <h3 class="nft-card-title">Sun-Glass</h3>
+                      <div class="nft-card-bottom">
+                        <div class="nft-card-bid">
+                          <p class="nft-card-bid-text">Current bid</p>
+                          <div class="nft-card-bid-value">
+                            <img
+                              src="./assets/img/ethereum-icon.svg"
+                              alt="Ethereum icon"
+                              width="15"
+                              height="15"
+                              loading="lazy"
+                              class="nft-card-bid-value-icon"
+                            />
+                            <span class="nft-card-bid-value-text">1.75</span>
+                          </div>
+                        </div>
+                        <a href="./product-detail.html" class="nft-card-button button">Place Bid</a>
+                      </div>
+                    </article>
+                  </li>
+                </ul>
+                <div class="loading">
+                  <div class="loading-inner"></div>
+                </div>
+              </div>
+              <div class="profile-activity-content">
+                <ul class="profile-activity-buttons-list">
+                  <li class="profile-activity-buttons-item">
+                    <button class="profile-activity-button button">
+                      <img
+                        src="./assets/img/sales-icon.svg"
+                        alt=""
+                        width="21"
+                        height="21"
+                        loading="lazy"
+                        class="profile-activity-button-sales-icon"
+                      />
+                      <span class="profile-activity-button-text">Sales</span>
+                      <img
+                        src="./assets/img/profile-arrow-icon.svg"
+                        alt=""
+                        width="11"
+                        height="6"
+                        loading="lazy"
+                        class="profile-activity-button-arrow-icon"
+                      />
+                    </button>
+                  </li>
+                  <li class="profile-activity-buttons-item">
+                    <button class="profile-activity-button button">
+                      <img
+                        src="./assets/img/all-chains-icon.svg"
+                        alt=""
+                        width="22"
+                        height="22"
+                        loading="lazy"
+                        class="profile-activity-button-all-chains-icon"
+                      />
+                      <span class="profile-activity-button-text">All Chains</span>
+                      <img
+                        src="./assets/img/profile-arrow-icon.svg"
+                        alt=""
+                        width="11"
+                        height="6"
+                        loading="lazy"
+                        class="profile-activity-button-arrow-icon"
+                      />
+                    </button>
+                  </li>
+                </ul>
+                <ul class="profile-activity-card-list">
+                  <li class="profile-activity-card-item">
+                    <article class="activity-card">
+                      <div class="activity-card-top">
+                        <div class="profile-activity-card-top-left">
+                          <img
+                            src="./assets/img/profile-activity-card-img-1.jpg"
+                            alt="NeuVey NFT"
+                            width="64"
+                            height="68"
+                            loading="lazy"
+                            class="activity-card-img"
+                          />
+                          <div class="activity-card-top-left-info">
+                            <h2 class="activity-card-title">NeuVey</h2>
+                            <p class="activity-card-user-nickname">JenifferS</p>
+                          </div>
+                        </div>
+                        <div class="activity-card-top-right">
+                          <div class="activity-card-top-right-info">
+                            <span class="activity-card-sale">Sale</span>
+                            <span class="activity-card-price">16,4</span>
+                            <p class="activity-card-time">6 Minutes ago</p>
+                          </div>
+                          <button class="activity-card-button">
+                            <img
+                              src="./assets/img/profile-arrow-icon.svg"
+                              alt=""
+                              width="10"
+                              height="5"
+                              loading="lazy"
+                              class="activity-card-button-arrow"
+                            />
+                          </button>
+                        </div>
+                      </div>
+                      <hr class="activity-card-horizontal-line">
+                      <ul class="activity-card-info-list">
+                        <li class="activity-card-info-item">
+                          <p class="activity-card-info-item-description">USD Price</p>
+                          <span class="activity-card-info-item-value">$19K</span>
+                        </li>
+                        <li class="activity-card-info-item">
+                          <p class="activity-card-info-item-description">Quantity</p>
+                          <span class="activity-card-info-item-value">14.9K</span>
+                        </li>
+                        <li class="activity-card-info-item">
+                          <p class="activity-card-info-item-description">floor price</p>
+                          <span class="activity-card-info-item-value">16,4</span>
+                        </li>
+                        <li class="activity-card-info-item">
+                          <p class="activity-card-info-item-description">traded</p>
+                          <span class="activity-card-info-item-value">26,4</span>
+                        </li>
+                      </ul>
+                    </article>
+                  </li>
+                  <li class="profile-activity-card-item">
+                    <article class="activity-card">
+                      <div class="activity-card-top">
+                        <div class="profile-activity-card-top-left">
+                          <img
+                            src="./assets/img/profile-activity-card-img-2.jpg"
+                            alt="NeuVey NFT"
+                            width="64"
+                            height="68"
+                            loading="lazy"
+                            class="activity-card-img"
+                          />
+                          <div class="activity-card-top-left-info">
+                            <h2 class="activity-card-title">NeuVey</h2>
+                            <p class="activity-card-user-nickname">JenifferS</p>
+                          </div>
+                        </div>
+                        <div class="activity-card-top-right">
+                          <div class="activity-card-top-right-info">
+                            <span class="activity-card-sale">Sale</span>
+                            <span class="activity-card-price">16,4</span>
+                            <p class="activity-card-time">6 Minutes ago</p>
+                          </div>
+                          <button class="activity-card-button">
+                            <img
+                              src="./assets/img/profile-arrow-icon.svg"
+                              alt=""
+                              width="10"
+                              height="5"
+                              loading="lazy"
+                              class="activity-card-button-arrow"
+                            />
+                          </button>
+                        </div>
+                      </div>
+                      <hr class="activity-card-horizontal-line">
+                      <ul class="activity-card-info-list">
+                        <li class="activity-card-info-item">
+                          <p class="activity-card-info-item-description">USD Price</p>
+                          <span class="activity-card-info-item-value">$19K</span>
+                        </li>
+                        <li class="activity-card-info-item">
+                          <p class="activity-card-info-item-description">Quantity</p>
+                          <span class="activity-card-info-item-value">14.9K</span>
+                        </li>
+                        <li class="activity-card-info-item">
+                          <p class="activity-card-info-item-description">floor price</p>
+                          <span class="activity-card-info-item-value">16,4</span>
+                        </li>
+                        <li class="activity-card-info-item">
+                          <p class="activity-card-info-item-description">traded</p>
+                          <span class="activity-card-info-item-value">26,4</span>
+                        </li>
+                      </ul>
+                    </article>
+                  </li>
+                </ul>
+                <div class="loading">
+                  <div class="loading-inner"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-top">
+            <div class="footer-logo">
+              <img
+                src="./assets/img/footer-logo.svg"
+                alt="DiveSea logo"
+                loading="lazy"
+                width="199"
+                height="65"
+                class="footer-logo-img"
+              />
+            </div>
+            <nav class="footer-nav">
+              <ul class="footer-nav-list">
+                <li class="footer-nav-list-item">
+                  <a href="#!" class="footer-nav-link">Privacy Policy</a>
+                </li>
+                <li class="footer-nav-list-item">
+                  <a href="#!" class="footer-nav-link">Term & Conditions</a>
+                </li>
+                <li class="footer-nav-list-item">
+                  <a href="#!" class="footer-nav-link">About Us</a>
+                </li>
+                <li class="footer-nav-list-item">
+                  <a href="#!" class="footer-nav-link">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <hr class="footer-horizontal-line">
+          <div class="footer-bottom">
+            <p class="footer-copyright footer-copyright-not-mobile">© 2023 EATLY All Rights Reserved.</p>
+            <p class="footer-copyright footer-copyright-mobile">© 2023 DiveSea All Rights Reserved.</p>
+            <ul class="social-list">
+              <li class="social-list-item">
+                <a href="#!" class="social-link">
+                  <svg
+                    width="22"
+                    height="22"
+                    viewBox="0 0 22 22"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="instagram-icon"
+                  >
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7721 0C12.1916 0.0506994 13.6618 0.0506994 15.0812 0.101392C16.3486 0.152085 17.5146 0.354867 18.6299 1.0139C20.0494 1.87572 20.9112 3.14309 21.2154 4.76533C21.3674 5.72853 21.4181 6.74243 21.4688 7.70564C21.5195 9.83483 21.4688 11.964 21.4688 14.0932C21.4688 15.2085 21.4181 16.3238 21.0633 17.3884C20.3535 19.4669 18.8834 20.7342 16.7542 21.1398C15.791 21.3426 14.7771 21.3426 13.8139 21.3933C11.6846 21.444 9.60615 21.3933 7.47694 21.3933C6.36165 21.3933 5.24635 21.3426 4.18176 20.9877C2.10325 20.278 0.835867 18.8078 0.430303 16.6786C0.227525 15.7154 0.227525 14.7015 0.176829 13.7383C0.126131 11.6091 0.176829 9.47996 0.176829 7.35077C0.176829 6.23549 0.227525 5.1202 0.582391 4.05559C1.29213 1.9771 2.76229 0.709734 4.89148 0.304173C5.8547 0.101399 6.8686 0.101399 7.83181 0.0506994C8.79502 0 9.75823 0 10.7721 0ZM19.5426 10.4939C19.4919 10.4939 19.5426 10.4939 19.5426 10.4939C19.4919 9.6321 19.4919 8.82097 19.4919 7.95916C19.4919 7.14805 19.4412 6.33692 19.3398 5.52581C19.137 3.70078 18.0724 2.4841 16.2981 2.12924C15.3855 1.92646 14.3716 1.92646 13.4591 1.92646C11.6341 1.87577 9.85976 1.87577 8.03473 1.92646C7.12222 1.92646 6.2097 1.97715 5.34788 2.12924C3.82702 2.38271 2.76243 3.24453 2.30617 4.76538C2.15408 5.27233 2.10339 5.77928 2.05269 6.28623C2.002 8.21264 2.002 10.139 2.002 12.0655C2.002 13.2821 2.05269 14.5495 2.15408 15.7662C2.30617 17.5912 3.42146 18.8586 5.2465 19.1627C6.159 19.3148 7.12222 19.3655 8.08543 19.3655C9.85976 19.4162 11.6341 19.3655 13.4591 19.3655C14.2703 19.3655 15.0814 19.3148 15.8925 19.2134C16.6529 19.1627 17.3627 18.9093 17.971 18.4023C18.9849 17.5912 19.3398 16.5266 19.3905 15.3099C19.4919 13.7891 19.4919 12.1668 19.5426 10.4939Z"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16.2471 10.6965C16.2471 13.7381 13.8137 16.1715 10.772 16.1715C7.73025 16.1715 5.29688 13.7381 5.29688 10.6458C5.29688 7.65478 7.78094 5.22144 10.8227 5.22144C13.8137 5.22144 16.2471 7.65478 16.2471 10.6965ZM10.7719 14.245C12.6983 14.245 14.3205 12.6228 14.3205 10.6964C14.3205 8.77 12.6983 7.14777 10.7719 7.14777C8.79474 7.14777 7.22318 8.77 7.22318 10.6964C7.17248 12.6228 8.79474 14.245 10.7719 14.245Z"/>
+                    <path d="M17.7184 4.96782C17.7184 5.67756 17.1607 6.2859 16.451 6.2859C15.7413 6.2859 15.1329 5.67756 15.1836 4.96782C15.1836 4.25809 15.7413 3.70044 16.451 3.70044C17.1607 3.70044 17.7184 4.25808 17.7184 4.96782Z"/>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list-item">
+                <a href="#!" class="social-link">
+                  <svg
+                    width="22"
+                    height="21"
+                    viewBox="0 0 22 21"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="linkedin-icon"
+                  >
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21.6325 12.4813V20.3605H17.0315V12.9989C17.0315 11.1585 16.3989 9.89329 14.731 9.89329C13.4658 9.89329 12.7181 10.756 12.373 11.5611C12.258 11.8487 12.2005 12.2513 12.2005 12.6539V20.3605H7.59952C7.59952 20.3605 7.65703 7.88037 7.59952 6.61511H12.2005V8.57052C12.2005 8.57052 12.2005 8.62801 12.143 8.62801H12.2005V8.57052C12.8331 7.65032 13.8684 6.27003 16.3414 6.27003C19.332 6.27003 21.6325 8.28296 21.6325 12.4813ZM2.88298 0.0012207C1.33014 0.0012207 0.294922 1.03644 0.294922 2.35921C0.294922 3.68198 1.27263 4.71721 2.82546 4.71721H2.88298C4.49333 4.71721 5.47103 3.68199 5.47103 2.35921C5.41352 1.03644 4.43581 0.0012207 2.88298 0.0012207ZM0.525568 20.3605H5.06905V6.61513H0.525568V20.3605Z"/>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list-item">
+                <a href="#!" class="social-link">
+                  <svg
+                    width="11"
+                    height="22"
+                    viewBox="0 0 11 22"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="facebook-icon"
+                  >
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.95256 10.6697H6.97166V21.3383H2.52644V12.4152V10.6697H0.43457V6.90439H2.52644V4.44644C2.52644 2.72065 3.36319 0.0012207 6.97166 0.0012207H10.2663V3.66199H7.913C7.54692 3.66199 6.97166 3.87118 6.97166 4.70793V6.90439H10.3186L9.95256 10.6697Z"/>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list-item">
+                <a href="#!" class="social-link">
+                  <svg
+                    width="22"
+                    height="19"
+                    viewBox="0 0 22 19"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="twitter-icon"
+                  >
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21.6154 2.82596C20.8121 3.1774 20.0088 3.42842 19.1052 3.52883C20.0088 2.97658 20.7117 2.1231 21.0129 1.11901C20.1595 1.62106 19.2056 1.97249 18.2517 2.1733C17.4484 1.31982 16.2937 0.767578 15.0386 0.767578C12.6287 0.767578 10.6707 2.72555 10.6707 5.13537C10.6707 5.48681 10.7209 5.83823 10.7711 6.13947C7.10619 5.93865 3.89307 4.23169 1.73426 1.57085C1.33262 2.22351 1.1318 2.97658 1.1318 3.77985C1.1318 5.28599 1.88488 6.64151 3.08979 7.44478C2.38692 7.44478 1.68406 7.24397 1.0816 6.89253V6.94273C1.0816 9.05133 2.58774 10.8587 4.59594 11.2603C4.2445 11.3607 3.84287 11.4109 3.44122 11.4109C3.14 11.4109 2.88897 11.3607 2.63795 11.3105C3.1902 13.0677 4.79676 14.3228 6.75475 14.373C5.2486 15.5277 3.39102 16.2306 1.33262 16.2306C0.981189 16.2306 0.629757 16.2306 0.27832 16.1804C2.23631 17.4355 4.49553 18.1383 7.00577 18.1383C15.0888 18.1383 19.4566 11.4611 19.4566 5.68762C19.4566 5.48681 19.4566 5.28599 19.4566 5.13537C20.3101 4.48272 21.0631 3.67944 21.6154 2.82596Z"/>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
