@@ -1,0 +1,482 @@
+.choose-wallet-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  .choose-wallet-container {
+    min-height: 0;
+  }
+}
+
+.choose-wallet-left-section {
+  display: flex;
+  flex-direction: column;
+  width: 54vw;
+  background-color: #f9f9f9;
+  padding-bottom: 10px;
+}
+
+.choose-wallet-logo {
+  display: block;
+  width: fit-content;
+  margin: 45px 0 73px 48px;
+}
+
+.choose-wallet-logo-img {
+  width: 53px;
+}
+
+.choose-wallet-left-section-widget,
+.choose-wallet-right-section-widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.choose-wallet-title {
+  height: 44px;
+  color: #323142;
+  font-size: 35.5px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: -1.5px;
+  margin-bottom: 106px;
+}
+
+.choose-wallet-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  margin-bottom: 81.5px;
+}
+
+.choose-wallet-list-item {
+  width: 395px;
+  height: 86px;
+  transition: filter 0.5s;
+}
+
+.choose-wallet-list-item:hover {
+  filter: drop-shadow(0px 0px 1px black);
+}
+
+.choose-wallet-link {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 9.5px;
+  box-shadow: 5px 10px 50px 0px rgba(0, 0, 0, 0.1);
+}
+
+.choose-wallet-link-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 19.5px;
+  padding-left: 29px;
+}
+
+.choose-wallet-link-icon {
+  width: 38.5px;
+  height: 38.5px;
+}
+
+.metamask-icon {
+  background: url(../assets/img/metamask-icon.png) center / cover no-repeat;
+}
+
+.trust-wallet-icon {
+  background: url(../assets/img/trust-wallet-icon.png) center / cover no-repeat;
+}
+
+.enter-ethereum-address-icon {
+  background: url(../assets/img/enter-ethereum-address-icon.svg) center / cover no-repeat;
+}
+
+.choose-wallet-link-text {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 153.5%;
+}
+
+.choose-wallet-link-arrow {
+  width: 29px;
+  height: 29px;
+  background: url(../assets/img/arrow-icon.svg) center / cover no-repeat;
+}
+
+.choose-wallet-button {
+  width: 386px;
+  height: 75px;
+  border-radius: 15.5px;
+  background-color: #141416;
+  color: #f3f5f6;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-right: 9px;
+  transition:
+    opacity 0.3s,
+    background-color 0.3s,
+    color 0.3s,
+    box-shadow 0.3s;
+}
+
+.choose-wallet-button:hover {
+  opacity: 0.8;
+}
+
+.choose-wallet-button:active {
+  background-color: #fff;
+  color: #141416;
+  box-shadow: 5px 10px 50px 0px rgba(0, 0, 0, 0.1);
+}
+
+.choose-wallet-left-section-footer {
+  display: flex;
+  justify-content: space-between;
+  color: #aaa;
+  font-weight: 500;
+  line-height: 150%;
+  margin: auto 48px 38px;
+}
+
+@media screen and (max-width: 1024px) {
+  .choose-wallet-logo {
+    margin: 32px 0 52px 34px;
+  }
+
+  .choose-wallet-logo-img {
+    width: 37.5px;
+  }
+
+  .choose-wallet-title {
+    height: 31px;
+    font-size: 25px;
+    letter-spacing: -1px;
+    margin-bottom: 75.5px;
+  }
+
+  .choose-wallet-list {
+    gap: 25px;
+    margin-bottom: 58px;
+  }
+
+  .choose-wallet-list-item {
+    width: 281px;
+    height: 61px;
+  }
+
+  .choose-wallet-link {
+    border-radius: 7px;
+    box-shadow: 3.5px 7px 35.5px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .choose-wallet-link-wrapper {
+    gap: 13.5px;
+    padding-left: 20.5px;
+  }
+
+  .choose-wallet-link-icon {
+    width: 27.5px;
+    height: 27.5px;
+  }
+
+  .choose-wallet-link-text {
+    font-size: 13px;
+  }
+
+  .choose-wallet-link-arrow {
+    width: 20.5px;
+    height: 20.5px;
+  }
+
+  .choose-wallet-button {
+    width: 274.5px;
+    height: 53.5px;
+    border-radius: 11px;
+    font-size: 13px;
+    margin-right: 6.5px;
+  }
+
+  .choose-wallet-left-section-footer {
+    font-size: 11.5px;
+    margin: auto 34px 24px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+  .choose-wallet-left-section-widget,
+  .choose-wallet-right-section-widget {
+    margin: auto;
+  }
+
+  .choose-wallet-left-section-footer {
+    margin: 0 34px 24px;
+  }
+  
+  .choose-wallet-right-section {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .choose-wallet-left-section {
+    width: 100vw;
+    padding: 80px 10px 10px;
+  }
+
+  .choose-wallet-logo {
+    display: none;
+  }
+
+  .choose-wallet-title {
+    height: 35px;
+    font-size: 28px;
+    margin-bottom: 85px;
+  }
+
+  .choose-wallet-list {
+    gap: 28px;
+    margin-bottom: 65px;
+  }
+
+  .choose-wallet-list-item {
+    width: 316px;
+    height: 69px;
+  }
+
+  .choose-wallet-link {
+    border-radius: 7.5px;
+    box-shadow: 4px 8px 40px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .choose-wallet-link-wrapper {
+    gap: 15.5px;
+    padding-left: 23px;
+  }
+
+  .choose-wallet-link-icon {
+    width: 31px;
+    height: 31px;
+  }
+
+  .choose-wallet-link-text {
+    font-size: 14.5px;
+  }
+
+  .choose-wallet-link-arrow {
+    width: 23px;
+    height: 23px;
+  }
+
+  .choose-wallet-button {
+    width: 308.5px;
+    height: 60px;
+    border-radius: 12.5px;
+    font-size: 14.5px;
+    margin-right: 0;
+    margin: 0 3.5px 115px 4px;
+  }
+
+  .choose-wallet-left-section-footer {
+    display: none;
+  }
+}
+
+.choose-wallet-right-section {
+  width: 46vw;
+  background-color: #141416;
+  padding-bottom: 10px;
+}
+
+.nft-gallery-background {
+  position: relative;
+  width: 391px;
+  height: 538.5px;
+  margin-bottom: 41.5px;
+}
+
+.nft-gallery-img,
+.nft-gallery-img-blur {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 394.5px;
+  background: url(../assets/img/main-nft-img-1.jpg) center / cover no-repeat;
+}
+
+.nft-gallery-img {
+  top: 120px;
+  z-index: 1;
+  border-radius: 25px;
+}
+
+.nft-gallery-img-blur {
+  top: 144px;
+  border-radius: 12px;
+  filter: blur(42px) opacity(0.7);
+}
+
+.nft-gallery-title {
+  width: 381px;
+  color: #fff;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 47.5px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -1px;
+  margin-bottom: 14px;
+}
+
+.nft-gallery-description {
+  width: 381px;
+  color: #6d6d6d;
+  text-align: center;
+  font-size: 16.5px;
+  line-height: 171.5%;
+  margin-bottom: 63px;
+}
+
+.nft-gallery-slider {
+  display: flex;
+  align-items: center;
+  width: 182.5px;
+  height: 75.5px;
+  border-radius: 19px;
+  background-color: #fcfcfd;
+}
+
+.nft-gallery-slider-wrapper {
+  display: flex;
+  height: 28.5px;
+}
+
+.nft-gallery-slider-button {
+  width: 90px;
+  background-color: #fcfcfd;
+  cursor: pointer;
+}
+
+.nft-gallery-slider-button-left {
+  text-align: right;
+  padding-right: 38px;
+}
+
+.nft-gallery-slider-button-right {
+  text-align: left;
+  padding-left: 38px;
+}
+
+.nft-gallery-slider-arrow {
+  width: 28.5px;
+  height: 28.5px;
+  color: #23262f;
+  transition: color 0.2s, opacity 0.2s;
+}
+
+.nft-gallery-slider-button:hover .nft-gallery-slider-arrow {
+  color: #929292;
+}
+
+.nft-gallery-slider-button:active .nft-gallery-slider-arrow {
+  opacity: 0.5;
+}
+
+.nft-gallery-slider-line {
+  width: 2.5px;
+  height: 100%;
+  border-radius: 2.5px;
+  background-color: #e6e8ec;
+}
+
+@media screen and (max-width: 1024px) {
+  .nft-gallery-background {
+    width: 278px;
+    height: 383px;
+    margin-bottom: 29.5px;
+  }
+
+  .nft-gallery-img {
+    top: 85.5px;
+    height: 280.5px;
+    border-radius: 18px;
+  }
+
+  .nft-gallery-img-blur {
+    top: 102.5px;
+    height: 280.5px;
+    border-radius: 8.5px;
+    filter: blur(30px) opacity(0.7);
+  }
+
+  .nft-gallery-title {
+    width: 271px;
+    font-size: 33.5px;
+    letter-spacing: -0.5px;
+    margin-bottom: 10px;
+  }
+
+  .nft-gallery-description {
+    width: 271px;
+    font-size: 12px;
+    margin-bottom: 63.5px;
+  }
+
+  .nft-gallery-slider {
+    width: 129.5px;
+    height: 54px;
+    border-radius: 13.5px;
+  }
+
+  .nft-gallery-slider-wrapper {
+    height: 20px;
+  }
+
+  .nft-gallery-slider-button {
+    width: 64px;
+  }
+
+  .nft-gallery-slider-button-left {
+    padding-right: 27px;
+  }
+  
+  .nft-gallery-slider-button-right {
+    padding-left: 27px;
+  }
+
+  .nft-gallery-slider-arrow {
+    width: 20px;
+    height: 20px;
+  }
+
+  .nft-gallery-slider-line {
+    width: 1.5px;
+    border-radius: 1.5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .choose-wallet-right-section {
+    display: none;
+  }
+}
+
+/* Header and footer */
+
+.choose-wallet {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .choose-wallet {
+    display: block;
+  }
+}

@@ -1,0 +1,305 @@
+.creators {
+  padding: 110px 0 177px;
+}
+
+.creators-title {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 66.5%;
+  text-align: center;
+  margin-bottom: 129.5px;
+}
+
+.creators-card-list {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, 370.5px);
+  justify-content: center;
+  justify-items: center;
+  gap: 84.5px 60px;
+  margin-bottom: 153.5px;
+}
+
+.creators-profile-card {
+  position: relative;
+  display: inline-block;
+  border-radius: 25px;
+  background: #f2f2f2;
+  box-shadow: 30px 15px 80px 0px rgba(191, 191, 191, 0.6);
+  transition: transform 0.2s;
+}
+
+.creators-profile-card-top-img {
+  width: 370.5px;
+  border-radius: 25px 25px 0 0;
+  margin-bottom: 69.5px;
+}
+
+.creators-profile-card-icon {
+  position: absolute;
+  top: 143px;
+  left: 0;
+  right: 0;
+  width: 125px;
+  margin: 0 auto;
+}
+
+.creators-profile-card-title {
+  width: 137.5px;
+  color: #000;
+  font-size: 23.5px;
+  font-weight: 600;
+  line-height: 141.5%;
+  background: url(../assets/img/creators-checkmark.svg) center right / 23.5px no-repeat;
+  margin: 0 0 17.5px 125.5px;
+}
+
+.creators-profile-card-info-list {
+  display: flex;
+  justify-content: space-between;
+  width: 316.5px;
+  margin: 0 auto 33px;
+}
+
+.creators-profile-card-info-item {
+  text-align: center;
+}
+
+.creators-profile-card-info-item-title {
+  width: fit-content;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 144.5%;
+  margin: 0 auto;
+}
+
+.creators-profile-card-info-item:nth-child(n+3) .creators-profile-card-info-item-title {
+  background: url(../assets/img/detail-ethereum-icon.svg) center left / 13px 18px no-repeat;
+  padding-left: 18px;
+}
+
+.creators-profile-card-info-item-description {
+  color: #828282;
+  font-size: 13px;
+  line-height: 123%;
+}
+
+.creators-profile-card-nft-list {
+  display: flex;
+  justify-content: space-between;
+  width: 318.5px;
+  margin: 0 auto 37px;
+}
+
+.creators-profile-card-nft-list-item {
+  position: relative;
+}
+
+.creators-profile-card-nft {
+  width: 99.5px;
+  height: 99.5px;
+  border-radius: 10px;
+  object-fit: none;
+}
+
+.creators-profile-card-link::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgba(16, 16, 16, 0.5);
+}
+
+.creators-profile-card-more {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 110%;
+  transition: opacity 0.3s;
+}
+
+.creators-profile-card-more:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  .creators {
+    padding: 78px 0 126px;
+  }
+  
+  .creators-title {
+    font-size: 32px;
+    margin-bottom: 91.5px;
+  }
+
+  .creators-card-list {
+    grid-template-columns: repeat(auto-fill, 263.5px);
+    gap: 60px 42.5px;
+    margin-bottom: 109px;
+  }
+  
+  .creators-profile-card {
+    border-radius: 18px;
+    box-shadow: 21.5px 10.5px 57px 0px rgba(191, 191, 191, 0.6);
+  }
+  
+  .creators-profile-card-top-img {
+    width: 263.5px;
+    border-radius: 18px 18px 0 0;
+    margin-bottom: 49.5px;
+  }
+  
+  .creators-profile-card-icon {
+    width: 88.5px;
+    top: 101.5px;
+  }
+  
+  .creators-profile-card-title {
+    width: 97.5px;
+    font-size: 17px;
+    background-size: 16.5px;
+    margin: 0 0 12.5px 89.5px;
+  }
+  
+  .creators-profile-card-info-list {
+    width: 225px;
+    margin: 0 auto 22.5px;
+  }
+  
+  .creators-profile-card-info-item-title {
+    font-size: 12.5px;
+  }
+  
+  .creators-profile-card-info-item:nth-child(n+3) .creators-profile-card-info-item-title{
+    background-size: 9px 12.5px;
+    padding-left: 12.5px;
+  }
+  
+  .creators-profile-card-info-item-description {
+    font-size: 9px;
+  }
+  
+  .creators-profile-card-nft-list {
+    width: 226.5px;
+    margin: 0 auto 26.5px;
+  }
+  
+  .creators-profile-card-nft {
+    width: 70.5px;
+    height: 70.5px;
+    border-radius: 7px;
+    object-fit: cover;
+  }
+  
+  .creators-profile-card-link::before {
+    border-radius: 7px;
+  }
+  
+  .creators-profile-card-more {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .creators {
+    padding: 75px 0 125px;
+  }
+  
+  .creators-title {
+    width: 227px;
+    font-size: 30px;
+    line-height: 125%;
+    margin: 0 auto 70px;
+  }
+
+  .creators-card-list {
+    grid-template-columns: repeat(auto-fill, 375px);
+    row-gap: 40px;
+    margin-bottom: 90.5px;
+  }
+
+  .creators-card-list-item:nth-child(n+4) {
+    display: none;
+  }
+  
+  .creators-profile-card {
+    border-radius: 15px;
+    box-shadow: 25px 12.5px 67px 0px rgba(191, 191, 191, 0.6);
+  }
+  
+  .creators-profile-card-top-img {
+    width: 309.5px;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 58px;
+  }
+  
+  .creators-profile-card-icon {
+    width: 104px;
+    top: 119.5px;
+  }
+  
+  .creators-profile-card-title {
+    width: 114.5px;
+    font-size: 20px;
+    background-size: 19.5px;
+    margin: 0 0 14px 105px;
+  }
+  
+  .creators-profile-card-info-list {
+    width: 263px;
+    margin: 0 auto 27px;
+  }
+  
+  .creators-profile-card-info-item-title {
+    font-size: 15px;
+  }
+  
+  .creators-profile-card-info-item:nth-child(n+3) .creators-profile-card-info-item-title{
+    background-size: 10.5px 15px;
+    padding-left: 15px;
+  }
+  
+  .creators-profile-card-info-item-description {
+    font-size: 10.5px;
+  }
+  
+  .creators-profile-card-nft-list {
+    width: 266px;
+    margin: 0 auto 31px;
+  }
+  
+  .creators-profile-card-nft {
+    width: 83px;
+    height: 83px;
+    border-radius: 8.5px;
+  }
+  
+  .creators-profile-card-link::before {
+    border-radius: 8.5px;
+  }
+  
+  .creators-profile-card-more {
+    font-size: 16.5px;
+  }
+
+  .creators .loader,
+  .stats .loader {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .creators .loader::after,
+  .stats .loader::after {
+    width: 17px;
+    height: 17px;
+  }
+}

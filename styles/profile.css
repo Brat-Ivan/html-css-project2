@@ -1,0 +1,1134 @@
+.profile {
+  padding-top: 55px;
+}
+
+.profile-header-content {
+  margin-bottom: 73px;
+}
+
+.profile-header {
+  height: 355px;
+  border-radius: 22px;
+  background: url(../assets/img/profile-header.jpg) 0 -235px / 101% 293.5% no-repeat;
+  box-shadow: 15.5px 15.5px 53px 0px rgba(0, 0, 0, 0.12);
+}
+
+.profile-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-left {
+  position: relative;
+  width: 29.5%;
+  padding-top: 55px;
+  margin-left: 75px;
+}
+
+.profile-icon {
+  position: absolute;
+  top: -140px;
+  left: -4px;
+}
+
+.profile-user-image {
+  width: 165px;
+}
+
+.profile-user-checkmark {
+  position: absolute;
+  right: 18px;
+  bottom: 7px;
+  width: 29px;
+  height: 29px;
+  background: url(../assets/img/profile-checkmark.svg) 0% / cover no-repeat;
+}
+
+.profile-intro {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.profile-user-name {
+  color: #010101;
+  font-family: 'Outfit', sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+}
+
+.profile-user-nickname {
+  color: #93989a;
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.profile-intro-follow-button {
+  display: block;
+  max-width: 121px;
+  width: 100%;
+  height: 46.5px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 11.5px;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 5px;
+  transition:
+    opacity 0.3s,
+    background-color 0.3s,
+    color 0.3s,
+    box-shadow 0.3s;
+}
+
+.profile-intro-follow-button:hover {
+  opacity: 0.7;
+}
+
+.profile-intro-follow-button:active {
+  background-color: #fff;
+  color: #000;
+  box-shadow: 5px 10px 50px 0px rgba(0, 0, 0, 0.1);
+}
+
+.profile-horizontal-line {
+  height: 1px;
+  background-color: #d0d0d0;
+  margin-right: 4px;
+}
+
+.profile-info-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 43px 0 116.5px;
+}
+
+.profile-info-item-title {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 125%;
+}
+
+.profile-info-item-description {
+  color: #848586;
+  font-family: 'Inter', sans-serif;
+  font-size: 10.5px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.profile-bio-title {
+  color: #c5c5c5;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 161%;
+  margin-bottom: 7px;
+}
+
+.profile-bio-description {
+  color: #949494;
+  font-size: 14px;
+  line-height: 177%;
+  text-transform: capitalize;
+  margin-bottom: 85px;
+}
+
+.profile-social-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 255px;
+  margin-top: 33px;
+}
+
+.profile-social-link {
+  display: flex;
+  align-items: center;
+  color: #000;
+  transition: opacity 0.3s;
+}
+
+.profile-social-link:hover {
+  opacity: 0.5;
+}
+
+.profile-right {
+  width: 54%;
+}
+
+.profile-menu-list {
+  display: flex;
+}
+
+.profile-menu-list-item {
+  width: 50%;
+}
+
+.profile-menu-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5.5px;
+  width: 100%;
+  color: #d2d2d2;
+  background-color: transparent;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  padding-bottom: 15.5px;
+  transition: filter 0.3s, opacity 0.3s;
+}
+
+.profile-menu-button:hover {
+  filter: brightness(80%);
+}
+
+.profile-menu-button:active {
+  opacity: 0.5;
+}
+
+.profile-menu-button.active {
+  border-bottom-color: #141416;
+}
+
+.profile-menu-button.active .profile-menu-button-icon {
+  color: #130f26;
+}
+
+.profile-menu-button-text {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 153.5%;
+}
+
+.profile-menu-button.active .profile-menu-button-text {
+  color:#000;
+}
+
+.profile-collection-content {
+  display: none;
+  padding: 85.5px 0 180px;
+}
+
+.profile-collection-content.active {
+  display: block;
+}
+
+.profile-collection-card-list {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, 204.5px);
+  justify-content: center;
+  justify-items: center;
+  gap: 45.5px 29px;
+  margin-bottom: 95.5px;
+}
+
+.profile-collection-card-item .nft-card {
+  border-radius: 17px;
+  box-shadow: 28px 8.5px 43px 0px rgba(199, 199, 199, 0.6);
+  padding: 10.5px 10.5px 14.5px;
+}
+
+.profile-collection-card-item .nft-card-timer {
+  top: 20.5px;
+  right: 17px;
+  height: 27.5px;
+  font-size: 10.5px;
+  border-radius: 7px;
+  box-shadow: 0px 3.5px 10.5px 0px rgba(28, 29, 32, 0.08);
+  backdrop-filter: blur(1.5px);
+  padding: 6px 8.5px;
+}
+
+.profile-collection-card-item .nft-card-img {
+  width: 184px;
+  object-fit: cover;
+  border-radius: 17px;
+  margin-bottom: 13.5px;
+}
+
+.profile-collection-card-item .nft-card-title {
+  font-size: 15.5px;
+  margin: 0 0 10.5px 3px;
+}
+
+.profile-collection-card-item .nft-card-bottom {
+  width: 177px;
+}
+
+.profile-collection-card-item .nft-card-bid-text {
+  font-size: 10.5px;
+  margin-bottom: 3.5px;
+}
+
+.profile-collection-card-item .nft-card-bid-value {
+  gap: 1.5px;
+  width: 39px;
+  height: 18px;
+}
+
+.profile-collection-card-item .nft-card-bid-value-icon {
+  width: 15.5px;
+}
+
+.profile-collection-card-item .nft-card-bid-value-text {
+  font-size: 12px;
+}
+
+.profile-collection-card-item .nft-card-button {
+  max-width: 88.5px;
+  font-size: 10.5px;
+  border-radius: 8.5px;
+  padding: 11px;
+}
+
+.profile .loader {
+  width: 36px;
+  height: 36px;
+}
+
+.profile .loader::after {
+  width: 21px;
+  height: 21px;
+}
+
+.profile-activity-content {
+  display: none;
+  padding: 124.5px 0 228px;
+}
+
+.profile-activity-content.active {
+  display: block;
+}
+
+.profile-activity-buttons-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 59px;
+}
+
+.profile-activity-buttons-item {
+  max-width: 320.5px;
+  width: 100%;
+}
+
+.profile-activity-buttons-item:last-child {
+  max-width: 335.5px;
+}
+
+.profile-activity-buttons-item + .profile-activity-buttons-item {
+  margin-left: 10px;
+}
+
+.profile-activity-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12.5px;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  color: #000;
+  background-color: #fff;
+  padding: 14px 0;
+  box-shadow: 19.5px 13px 66px 0px rgba(97, 97, 97, 0.25);
+  cursor: pointer;
+  transition: filter 0.3s;
+}
+
+.profile-activity-button:hover {
+  filter: brightness(95%);
+}
+
+.profile-activity-button:active {
+  filter: brightness(85%);
+}
+
+.profile-activity-button-sales-icon {
+  width: 21px;
+}
+
+.profile-activity-button-all-chains-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.profile-activity-button-text {
+  font-size: 16.5px;
+  line-height: 123%;
+}
+
+.profile-activity-button-arrow-icon {
+  width: 11px;
+}
+
+.profile-activity-card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  margin-bottom: 136.5px;
+}
+
+.activity-card {
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 19px 12.5px 64px 0px rgba(97, 97, 97, 0.25);
+}
+
+.activity-card-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 15.5px 4.5px 14.5px 14.5px;
+}
+
+.profile-activity-card-top-left {
+  display: flex;
+  gap: 12px;
+}
+
+.activity-card-img {
+  width: 64.5px;
+  height: 68px;
+  border-radius: 12px;
+}
+
+.activity-card-title {
+  color: #000;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 157%;
+  margin-top: 7.5px;
+}
+
+.activity-card-user-nickname {
+  color: #000;
+  font-size: 12px;
+  background: url(../assets/img/creators-checkmark.svg) right center / 12.5px 13.5px no-repeat;
+  padding-right: 18px;
+  margin-top: -0.5px;
+}
+
+.activity-card-top-right {
+  display: flex;
+  margin-top: 7.5px;
+}
+
+.activity-card-top-right-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.activity-card-sale {
+  color: #14a760;
+  font-size: 12px;
+  margin: 0 10.5px 1px 0;
+}
+
+.activity-card-price {
+  color: #000;
+  width: 52px;
+  text-align: right;
+  font-weight: 500;
+  background: url(../assets/img/detail-ethereum-icon.svg) left center / 10px 17px no-repeat;
+  padding-left: 12px;
+  margin: 0 9.5px 1px 0;
+}
+
+.activity-card-time {
+  color: #d2d2d2;
+  font-size: 12px;
+}
+
+.activity-card-button {
+  background-color: #fff;
+  height: 5px;
+  padding: 17px 18.5px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.activity-card-button:hover {
+  opacity: 0.7;
+}
+
+.activity-card-button:active {
+  opacity: 0.3;
+}
+
+.activity-card-button-arrow {
+  width: 9.5px;
+}
+
+.activity-card-horizontal-line {
+  height: 0.5px;
+  background-color: #d2d2d2;
+  margin: 0 27px 0 22px;
+}
+
+.activity-card-info-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 34px 20px 23px;
+}
+
+.activity-card-info-item {
+  text-align: center;
+}
+
+.activity-card-info-item-description {
+  color: #828282;
+  font-size: 11.5px;
+  line-height: 123%;
+}
+
+.activity-card-info-item-value {
+  display: block;
+  width: fit-content;
+  color: #000;
+  font-size: 15.5px;
+  font-weight: 500;
+  line-height: 144.5%;
+  margin: 0 auto;
+}
+
+.activity-card-info-item:nth-child(n+3) .activity-card-info-item-value {
+  background: url(../assets/img/detail-ethereum-icon.svg) left center / 11.5px 15.5px no-repeat;
+  padding-left: 15.5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .profile {
+    padding-top: 39px;
+  }
+
+  .profile-header-content {
+    margin-bottom: 52px;
+  }
+  
+  .profile-header {
+    height: 252.5px;
+    border-radius: 15.5px;
+    background: url(../assets/img/profile-header.jpg) 0 -167px / 101% 293.5% no-repeat;
+    box-shadow: 11px 11px 37.5px 0px rgba(0, 0, 0, 0.12);
+  }
+  
+  .profile-left {
+    padding-top: 39px;
+    margin-left: 53.5px;
+  }
+  
+  .profile-icon {
+    top: -99.5px;
+    left: -3px;
+  }
+
+  .profile-user-image {
+    width: 117.5px;
+  }
+  
+  .profile-user-checkmark {
+    right: 13px;
+    bottom: 5px;
+    width: 20.5px;
+    height: 20.5px;
+  }
+  
+  .profile-intro {
+    margin-bottom: 28px;
+  }
+  
+  .profile-user-name {
+    font-size: 25px;
+    margin-bottom: 3px;
+  }
+  
+  .profile-user-nickname {
+    font-size: 13px;
+  }
+  
+  .profile-intro-follow-button {
+    max-width: 86px;
+    height: 33px;
+    border-radius: 8px;
+    font-size: 10.5px;
+    margin-top: 3.5px;
+  }
+  
+  .profile-horizontal-line {
+    margin-right: 3px;
+  }
+  
+  .profile-info-list {
+    margin: 30.5px 0 83px;
+  }
+  
+  .profile-info-item-title {
+    font-size: 23px;
+  }
+  
+  .profile-info-item-description {
+    font-size: 7.5px;
+  }
+  
+  .profile-bio-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .profile-bio-description {
+    font-size: 10px;
+    margin-bottom: 60px;
+  }
+  
+  .profile-social-list {
+    width: 181.5px;
+    margin-top: 23.5px;
+  }
+
+  .profile-instagram-icon {
+    width: 11.5px;
+    height: 11.5px;
+  }
+
+  .profile-linkedin-icon {
+    width: 11.5px;
+    height: 11px;
+  }
+
+  .profile-facebook-icon {
+    width: 5.5px;
+    height: 11.5px;
+  }
+  
+  .profile-twitter-icon {
+    width: 11.5px;
+    height: 9px;
+  }
+  
+  .profile-menu-button {
+    gap: 4px;
+    border-bottom: 2.5px solid transparent;
+    padding-bottom: 10.5px;
+  }
+
+  .profile-menu-button-icon-collection {
+    width: 17.5px;
+    height: 17px;
+  }
+
+  .profile-menu-button-icon-activity {
+    width: 15.5px;
+    height: 15.5px;
+  }
+  
+  .profile-menu-button-text {
+    font-size: 11.5px;
+  }
+  
+  .profile-collection-content {
+    padding: 61px 0 128px;
+  }
+  
+  .profile-collection-card-list {
+    grid-template-columns: repeat(auto-fill, 145.5px);
+    justify-content: space-evenly;
+    gap: 32.5px 20.5px;
+    margin-bottom: 68px;
+  }
+  
+  .profile-collection-card-item .nft-card {
+    border-radius: 12px;
+    box-shadow: 20px 6px 30.5px 0px rgba(199, 199, 199, 0.6);
+    padding: 7.5px 7.5px 11.5px;
+  }
+  
+  .profile-collection-card-item .nft-card-timer {
+    top: 14.5px;
+    right: 12px;
+    height: 19.5px;
+    font-size: 7.5px;
+    border-radius: 5px;
+    border: 0.5px solid rgba(28, 29, 32, 0.08);
+    box-shadow: 0px 3.5px 10.5px 0px rgba(28, 29, 32, 0.08);
+    backdrop-filter: blur(1px);
+    padding: 6px;
+  }
+  
+  .profile-collection-card-item .nft-card-img {
+    width: 130.5px;
+    border-radius: 12px;
+    margin-bottom: 9.5px;
+  }
+  
+  .profile-collection-card-item .nft-card-title {
+    font-size: 11px;
+    margin: 0 0 7.5px 2.5px;
+  }
+  
+  .profile-collection-card-item .nft-card-bottom {
+    width: 126px;
+  }
+  
+  .profile-collection-card-item .nft-card-bid-text {
+    font-size: 7.5px;
+    margin-bottom: 2.5px;
+  }
+  
+  .profile-collection-card-item .nft-card-bid-value {
+    gap: 1px;
+    width: 28px;
+    height: 13px;
+  }
+  
+  .profile-collection-card-item .nft-card-bid-value-icon {
+    width: 11px;
+  }
+  
+  .profile-collection-card-item .nft-card-bid-value-text {
+    font-size: 8.5px;
+  }
+  
+  .profile-collection-card-item .nft-card-button {
+    max-width: 63px;
+    font-size: 7.5px;
+    border-radius: 6px;
+    padding: 7.5px;
+  }
+  
+  .profile .loader {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .profile .loader::after {
+    width: 14px;
+    height: 14px;
+  }
+
+  .profile-activity-content {
+    padding: 88.5px 0 162px;
+  }
+  
+  .profile-activity-buttons-list {
+    margin-bottom: 42px;
+  }
+  
+  .profile-activity-buttons-item {
+    max-width: 228px;
+  }
+  
+  .profile-activity-buttons-item:last-child {
+    max-width: 238.5px;
+  }
+  
+  .profile-activity-button {
+    gap: 9px;
+    height: 36px;
+    border-radius: 7px;
+    padding: 10.5px 0;
+    box-shadow: 14px 9px 47px 0px rgba(97, 97, 97, 0.25);
+  }
+
+  .profile-activity-button-sales-icon {
+    width: 15px;
+  }
+
+  .profile-activity-button-all-chains-icon {
+    width: 15.5px;
+    height: 15.5px;
+  }
+  
+  .profile-activity-button-text {
+    font-size: 11.5px;
+  }
+
+  .profile-activity-button-arrow-icon {
+    width: 8px;
+  }
+  
+  .profile-activity-card-list {
+    gap: 30px;
+    margin-bottom: 97px;
+  }
+  
+  .activity-card {
+    border-radius: 8.5px;
+    box-shadow: 13.5px 9px 45.5px 0px rgba(97, 97, 97, 0.25);
+  }
+  
+  .activity-card-top {
+    padding: 11px 3px 11px 10.5px;
+  }
+  
+  .profile-activity-card-top-left {
+    gap: 8.5px;
+  }
+  
+  .activity-card-img {
+    width: 45.5px;
+    height: 48.5px;
+    border-radius: 8.5px;
+  }
+  
+  .activity-card-title {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .activity-card-user-nickname {
+    font-size: 8.5px;
+    background-size: 9px 9.5px;
+    padding-right: 13px;
+    margin: 0;
+  }
+  
+  .activity-card-top-right {
+    margin-top: 5.5px;
+  }
+  
+  .activity-card-sale {
+    font-size: 8.5px;
+    margin: 0 7px 0.5px 0;
+  }
+  
+  .activity-card-price {
+    width: 37px;
+    font-size: 11.5px;
+    background-size: 7px 12px;
+    padding-left: 8.5px;
+    margin: 0 6.5px 1px 0;
+  }
+  
+  .activity-card-time {
+    font-size: 8.5px;
+  }
+  
+  .activity-card-button {
+    padding: 12px 13.5px;
+  }
+
+  .activity-card-button-arrow {
+    width: 7px;
+  }
+  
+  .activity-card-horizontal-line {
+    margin: 0 19px 0 15.5px;
+  }
+  
+  .activity-card-info-list {
+    padding: 12.5px 24px 14px 16px;
+  }
+  
+  .activity-card-info-item-description {
+    font-size: 8px;
+  }
+  
+  .activity-card-info-item-value {
+    font-size: 11px;
+  }
+  
+  .activity-card-info-item:nth-child(n+3) .activity-card-info-item-value {
+    background-size: 8px 11px;
+    padding-left: 11px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .profile {
+    padding: 62px 0 125px;
+  }
+
+  .profile-header-content {
+    overflow-x: clip;
+    padding: 0;
+    margin: 0 0 97px -9.5px;
+  }
+  
+  .profile-header {
+    width: 946.5px;
+    height: 269.5px;
+    border-radius: 16.5px;
+    background: url(../assets/img/profile-header.jpg) 0 -178px / 101% 293.5% no-repeat;
+    box-shadow: 11.5px 11.5px 40.5px 0px rgba(0, 0, 0, 0.12);
+  }
+  
+  .profile-content {
+    flex-direction: column;
+    gap: 84px;
+  }
+  
+  .profile-left {
+    width: auto;
+    padding: 0;
+    margin: 0 19px 0 17.5px;
+  }
+  
+  .profile-icon {
+    top: -148px;
+  }
+
+  .profile-user-image {
+    width: 125px;
+  }
+  
+  .profile-user-checkmark {
+    right: 13.5px;
+    bottom: 5.5px;
+    width: 22px;
+    height: 22px;
+  }
+  
+  .profile-intro {
+    margin-bottom: 30px;
+  }
+  
+  .profile-user-name {
+    font-size: 26.5px;
+    margin-bottom: 2px;
+  }
+  
+  .profile-user-nickname {
+    font-size: 13.5px;
+  }
+  
+  .profile-intro-follow-button {
+    max-width: 92px;
+    height: 35px;
+    border-radius: 8.5px;
+    font-size: 11.5px;
+    margin-top: 4px;
+  }
+  
+  .profile-info-list {
+    margin: 32.5px 0 88.5px;
+  }
+  
+  .profile-info-item-title {
+    font-size: 24.5px;
+  }
+  
+  .profile-info-item-description {
+    font-size: 8px;
+  }
+  
+  .profile-bio-title {
+    font-size: 19px;
+    margin-bottom: 5.5px;
+  }
+  
+  .profile-bio-description {
+    font-size: 10.5px;
+    margin-bottom: 64.5px;
+  }
+  
+  .profile-social-list {
+    width: 193.5px;
+    margin-top: 25px;
+  }
+
+  .profile-instagram-icon {
+    width: 12px;
+    height: 12px;
+  }
+
+  .profile-linkedin-icon {
+    width: 12px;
+    height: 11.5px;
+  }
+
+  .profile-facebook-icon {
+    height: 12px;
+  }
+  
+  .profile-twitter-icon {
+    width: 12px;
+    height: 10px;
+  }
+
+  .profile-right {
+    width: auto;
+  }
+
+  .profile-menu-button {
+    gap: 4.5px;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 12px;
+  }
+
+  .profile-menu-button-icon-collection {
+    width: 19.5px;
+    height: 19px;
+  }
+
+  .profile-menu-button-icon-activity {
+    width: 17px;
+    height: 17px;
+  }
+  
+  .profile-menu-button-text {
+    font-size: 13px;
+  }
+  
+  .profile-collection-content,
+  .profile-activity-content {
+    padding: 55px 0 0;
+  }
+  
+  .profile-collection-card-list {
+    grid-template-columns: repeat(auto-fill, 146.5px);
+    gap: 30px 21px;
+    margin-bottom: 97px;
+  }
+
+  .profile-collection-card-item:nth-child(n+5) {
+    display: none;
+  }
+  
+  .profile .loader {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .profile .loader::after {
+    width: 17px;
+    height: 17px;
+  }
+  
+  .profile-activity-buttons-list {
+    gap: 6.5px;
+    margin: 0 3px 25.5px 3px;
+  }
+
+  .profile-activity-buttons-item,
+  .profile-activity-buttons-item:last-child {
+    max-width: 50%;
+  }
+  
+  .profile-activity-buttons-item + .profile-activity-buttons-item {
+    margin-left: 0;
+  }
+  
+  .profile-activity-button {
+    gap: 10px;
+    height: 38.5px;
+    border-radius: 7.5px;
+    padding: 11px 0;
+    box-shadow: none;
+  }
+
+  .profile-activity-button-sales-icon {
+    width: 12.5px;
+  }
+
+  .profile-activity-button-all-chains-icon {
+    width: 12px;
+    height: 12px;
+  }
+  
+  .profile-activity-button-text {
+    font-size: 11px;
+  }
+
+  .profile-activity-button-arrow-icon {
+    width: 8.5px;
+  }
+  
+  .profile-activity-card-list {
+    gap: 20px;
+    margin-bottom: 90px;
+  }
+  
+  .activity-card {
+    border-radius: 9.5px;
+    box-shadow: 0px 4px 46.5px 0px rgba(197, 197, 197, 0.25);
+  }
+  
+  .activity-card-top {
+    padding: 12.5px 3px 15px 11.5px;
+  }
+  
+  .profile-activity-card-top-left {
+    gap: 9.5px;
+  }
+  
+  .activity-card-img {
+    width: 51px;
+    height: 54px;
+    border-radius: 9.5px;
+  }
+  
+  .activity-card-title {
+    font-size: 13.5px;
+    margin: 6px 0 0 1px;
+  }
+  
+  .activity-card-user-nickname {
+    font-size: 9.5px;
+    background-size: 10px 10.5px;
+    padding-right: 14.5px;
+    margin-top: -1px;
+  }
+  
+  .activity-card-top-right {
+    margin-top: 6.5px;
+  }
+  
+  .activity-card-sale {
+    font-size: 9.5px;
+    margin: 0 0 0.5px 0;
+  }
+  
+  .activity-card-price {
+    width: 41.5px;
+    font-size: 12.5px;
+    background-size: 8px 13.5px;
+    padding-left: 9.5px;
+    margin: 0 1px 0 0;
+  }
+  
+  .activity-card-time {
+    font-size: 9.5px;
+    margin: -1.5px 1.5px 0 0;
+  }
+  
+  .activity-card-button {
+    padding: 21.5px 13.5px;
+    margin-left: 4px;
+  }
+
+  .activity-card-button-arrow {
+    width: 7.5px;
+  }
+  
+  .activity-card-horizontal-line {
+    margin: 0 15.5px 0 17.5px;
+  }
+  
+  .activity-card-info-list {
+    padding: 16px 16px 22px 16.5px;
+  }
+  
+  .activity-card-info-item-description {
+    font-size: 9px;
+  }
+  
+  .activity-card-info-item-value {
+    font-size: 12.5px;
+    font-weight: 400;
+  }
+  
+  .activity-card-info-item:nth-child(n+3) .activity-card-info-item-value {
+    background-size: 9px 12.5px;
+    padding-left: 12.5px;
+  }
+}

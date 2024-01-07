@@ -1,0 +1,301 @@
+.stats {
+  padding: 110px 0 200px;
+}
+
+.stats-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 109px;
+}
+
+.stats-thead-th {
+  padding-bottom: 15px;
+}
+
+.stats-thead-th-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.stats-thead-th-text {
+  color: #1a202c;
+  font-family: 'Manrope', sans-serif;
+  font-size: 22.5px;
+  font-weight: 800;
+  line-height: 150%;
+}
+
+.stats-thead-th-button,
+.stats-thead-th-button-arrows {
+  width: 20px;
+  height: 20px;
+}
+
+.stats-thead-th-button {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.stats-thead-th-button-arrows {
+  transition: color 0.2s, opacity 0.2s;
+}
+
+.stats-thead-th-button:hover .stats-thead-th-button-arrows {
+  color: #929292;
+}
+
+.stats-thead-th-button:active .stats-thead-th-button-arrows {
+  opacity: 0.5;
+}
+
+.stats-tbody-tr {
+  border-bottom: 1.5px solid #ebe9e9;
+}
+
+.stats-user-profile-link {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  padding: 44px 0 23.5px;
+}
+
+.stats-user-image {
+  width: 78.5px;
+}
+
+.stats-user-info {
+  text-align: left;
+}
+
+.stats-user-name {
+  display: block;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 140%;
+  margin-bottom: 1.5px;
+}
+
+.stats-user-creator {
+  color: #64748b;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.stats-user-volume-value,
+.stats-user-floor-price {
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 140%;
+  background: url(../assets/img/ethereum-icon.svg) left center / 29.5px no-repeat;
+  padding-left: 32.5px;
+}
+
+.stats-user-volume-percent {
+  display: none;
+}
+
+.stats-user-percent {
+  color: #10c352;
+  font-family: 'Outfit', sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.stats-user-owner,
+.stats-user-items {
+  color: #010101;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+@media screen and (max-width: 1024px) {
+  .stats {
+    padding: 78px 0 142px;
+  }
+
+  .stats-table {
+    margin-bottom: 77.5px;
+  }
+  
+  .stats-thead-th {
+    padding-bottom: 10.5px;
+  }
+  
+  .stats-thead-th-wrapper {
+    gap: 10.5px;
+  }
+  
+  .stats-thead-th-text {
+    font-size: 16px;
+  }
+  
+  .stats-thead-th-button,
+  .stats-thead-th-button-arrows {
+    width: 14px;
+    height: 14px;
+  }
+  
+  .stats-tbody-tr {
+    border-bottom: 1px solid #ebe9e9;
+  }
+  
+  .stats-user-profile-link {
+    gap: 15.5px;
+    padding: 31.5px 0 17px;
+  }
+
+  .stats-user-image {
+    width: 55.5px;
+  }
+  
+  .stats-user-name {
+    font-size: 18.5px;
+    margin-bottom: 1px;
+  }
+  
+  .stats-user-creator {
+    font-size: 15px;
+  }
+  
+  .stats-user-volume-value,
+  .stats-user-floor-price {
+    font-size: 16px;
+    background-size: 21px;
+    padding-left: 23px;
+  }
+  
+  .stats-user-percent {
+    font-size: 16px;
+  }
+  
+  .stats-user-owner,
+  .stats-user-items {
+    font-size: 15.5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .stats {
+    padding: 75px 0 125px;
+  }
+
+  .stats-title {
+    width: 203px;
+  }
+
+  .stats-table {
+    margin-bottom: 66px;
+  }
+  
+  .stats-thead-th {
+    padding-bottom: 15px;
+  }
+
+  .stats-thead-th:nth-child(n+3),
+  .stats-user-percent,
+  .stats-user-floor-price,
+  .stats-user-owner,
+  .stats-user-items {
+    display: none;
+  }
+  
+  .stats-thead-th-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .stats-thead-th:nth-child(n+2) .stats-thead-th-wrapper {
+    justify-content: flex-end;
+  }
+  
+  .stats-thead-th-text {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 130%;
+  }
+  
+  .stats-thead-th-button {
+    display: none;
+  }
+
+  .stats-tbody {
+    counter-reset: num 0;
+  }
+  
+  .stats-tbody-tr {
+    border-bottom: 1px solid #e8e8e8;
+  }
+  
+  .stats-user-profile-link {
+    gap: 15.5px;
+    padding: 18.5px 0 15.5px;
+  }
+
+  .stats-icon {
+    position: relative;
+    width: 52px;
+    height: 48px;
+  }
+
+  .stats-user-image {
+    width: 46px;
+  }
+
+  .stats-counter {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: #fff;
+    counter-increment: num;
+  }
+
+  .stats-counter::after {
+    content: counter(num);
+    font-size: 11.5px;
+    font-weight: 700;
+    line-height: 150%;
+  }
+  
+  .stats-user-name {
+    font-size: 15.5px;
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 7.5px;
+  }
+  
+  .stats-user-creator {
+    font-size: 12.5px;
+  }
+
+  .stats-user-volume {
+    text-align: right;
+  }
+  
+  .stats-user-volume-value {
+    display: inline-block;
+    font-size: 15.5px;
+    background-size: 17.5px;
+    padding-left: 19.5px;
+    margin: 3.5px 0 7.5px;
+  }
+  
+  .stats-user-volume-percent {
+    display: block;
+    color: #10c352;
+    font-size: 13.5px;
+    line-height: 150%;
+  }
+}

@@ -1,0 +1,224 @@
+.discover {
+  padding: 110px 0 226px;
+}
+
+.discover-title,
+.stats-title {
+  color: #141416;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 66.5%;
+  text-align: center;
+  margin: 0 auto 44.5px;
+}
+
+.filters-list {
+  display: flex;
+  justify-content: space-between;
+  width: 496px;
+  margin: 0 auto 100px;
+}
+
+.filters-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9.5px;
+  height: 100%;
+  border-radius: 14px;
+  border: 2.5px solid #141416;
+  background-color: #f9f9f9;
+  padding: 15.5px;
+  cursor: pointer;
+  transition: opacity 0.2s, background-color 0.2s, color 0.2s;
+}
+
+.filters-button-category {
+  width: 145.5px;
+}
+
+.filters-button-collection {
+  width: 155px;
+}
+
+.filters-button-price {
+  width: 132.5px;
+}
+
+.filters-button-text {
+  color: #1a202c;
+  font-family: 'Manrope', sans-serif;
+  font-size: 16.5px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.filters-button-icon {
+  width: 27px;
+  height: 27px;
+}
+
+.discover-card-list {
+  margin-bottom: 176.5px;
+}
+
+.loader-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.loader {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  background: conic-gradient(from 180deg at 50% 50%, #999 0deg, rgba(153, 153, 153, 0) 360deg);
+  box-sizing: border-box;
+  animation: loader 1s linear infinite;
+}
+.loader::after {
+  content: '';  
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #f9f9f9;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .discover {
+    padding: 78.5px 0 160.5px;
+  }
+  
+  .discover-title,
+  .stats-title {
+    color: #141416;
+    font-size: 32px;
+    margin-bottom: 31px;
+  }
+  
+  .filters-list {
+    width: 353px;
+    margin-bottom: 71px;
+  }
+  
+  .filters-button {
+    gap: 6.5px;
+    border-radius: 10px;
+    border: 1.5px solid #141416;
+    padding: 11px;
+  }
+  
+  .filters-button-category {
+    width: 103.5px;
+  }
+  
+  .filters-button-collection {
+    width: 110px;
+  }
+  
+  .filters-button-price {
+    width: 94.5px;
+  }
+  
+  .filters-button-text {
+    font-size: 11.5px;
+  }
+  
+  .filters-button-icon {
+    width: 19px;
+    height: 19px;
+  }
+
+  .discover-card-list {
+    margin-bottom: 125.5px;
+  }
+
+  .loader {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .loader::after {
+    width: 21px;
+    height: 21px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .discover {
+    padding: 75px 0 143px;
+  }
+  
+  .discover-title,
+  .stats-title {
+    font-size: 30px;
+    line-height: 125%;
+    margin-bottom: 30px;
+  }
+  
+  .filters-list {
+    width: 289.5px;
+    margin-bottom: 75px;
+  }
+  
+  .filters-button {
+    gap: 5.5px;
+    border-radius: 8.5px;
+    padding: 9.5px;
+  }
+  
+  .filters-button-category {
+    width: 88px;
+  }
+  
+  .filters-button-collection {
+    width: 93.5px;
+  }
+  
+  .filters-button-price {
+    width: 80px;
+  }
+  
+  .filters-button-text {
+    font-size: 10px;
+  }
+  
+  .filters-button-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .discover-card-list {
+    margin-bottom: 106px;
+  }
+
+  .discover-card-item:nth-child(n+9) {
+    display: none;
+  }
+
+  .loader {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .loader::after {
+    width: 25px;
+    height: 25px;
+  }
+}

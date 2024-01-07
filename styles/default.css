@@ -1,0 +1,41 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #141416;
+  background-color: #f9f9f9;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.container {
+  max-width: 1270px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 910px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    min-width: 375px;
+    padding: 0 30px;
+  }
+}
+
+.main {
+  flex: 1 0 auto;
+}
